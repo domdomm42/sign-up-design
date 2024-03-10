@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="left-sidebar">
+        <!-- <image src="sidebar_video.gif"> </image> -->
+        <video
+          autoplay
+          muted
+          loop
+          src="Pixel_Bikers.mp4"
+          type="video/mp4"
+        ></video>
+      </div>
+      <div class="right-sidebar">
+        <div class="signup-section">
+          <h1>Sign up</h1>
+          <h3>Welcome to Nostalgic Rides</h3>
+          <br />
+          <form>
+            <label for="firstname">First Name:</label><br />
+            <input type="text" name="firstname" required /><br />
+
+            <label for="password">Password:</label><br />
+            <input type="password" name="password" required /><br />
+
+            <label for="confirmpassword">Confirm Password:</label><br />
+            <input type="password" name="confirmpassword" required /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" name="email" required /><br />
+
+            <button type="submit">Sign up</button>
+          </form>
+          <br />
+          <div class="signin">Already signed up? <a href="#">Login</a></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
