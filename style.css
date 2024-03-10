@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "PressStart2P";
-  src: url("PressStart2P.ttf") format("truetype");
+  font-family: 'PressStart2P';
+  src: url('PressStart2P.ttf') format('truetype');
 }
 
 body {
@@ -38,11 +38,11 @@ video {
 }
 
 .signup-section {
-  font-family: "PressStart2P", Arial, Helvetica, sans-serif;
+  font-family: 'PressStart2P', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  width: 75%;
-  height: 75%;
+  width: 60%;
+  height: 50%;
   border: 1px solid white;
   color: white;
 }
